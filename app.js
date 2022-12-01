@@ -34,7 +34,7 @@ mongoose
     console.log("Successfull");
   })
   .catch((e) => {
-    console.log("not connected");
+    console.log(e);
   });
 
 //Creating New Schema for Item
