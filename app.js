@@ -25,7 +25,7 @@ app.use(express.static("public"));
 
 //Conntect database with mongoose
 mongoose
-  .connect(process.env.DATABASE, {
+  .connect('mongodb+srv://Codewave:codewaveatlas@cluster0.7tjzuru.mongodb.net/BlogList?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
